@@ -115,7 +115,7 @@ class AwardsBuilder:
             (f"**Number of messages sent** 📬: `{number_messages.value}` "
              f"(in `{number_messages.channels}` channels from `{number_messages.users}` users)\n"),
             (f"**Number of thread messages sent** 📟: `{thread_messages.value}` "
-             f"(in `{thread_messages.channels}` thread from `{thread_messages.users}` users)\n"),
+             f"(in `{thread_messages.channels}` threads from `{thread_messages.users}` users)\n"),
             (f"**Average message length** 📰: Characters (`{avg_message_chars.value}`), "
              f"Words (`{avg_message_words.value}`)\n"),
             (f"**Chattiest channel** 🖨️: <#{busiest_channel.value}> "
